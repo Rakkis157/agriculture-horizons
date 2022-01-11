@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "agriculture_horizons",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/agriculture_horizons/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.rakkis157.agriculture_horizons.AgricultureHorizons"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "agriculture_horizons.mixins.json"
   ],
 
   "depends": {
