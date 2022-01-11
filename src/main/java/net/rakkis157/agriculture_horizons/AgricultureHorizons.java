@@ -1,6 +1,7 @@
 package net.rakkis157.agriculture_horizons;
 
 import net.fabricmc.api.ModInitializer;
+import net.rakkis157.agriculture_horizons.block.AgricultureHorizonsBlocks;
 import net.rakkis157.agriculture_horizons.item.AgricultureHorizonsItems;
 
 public class AgricultureHorizons implements ModInitializer {
@@ -15,5 +16,6 @@ public class AgricultureHorizons implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		AgricultureHorizonsItems.registerModItems();
+		AgricultureHorizonsBlocks.registerModBlocks();
 	}
 }

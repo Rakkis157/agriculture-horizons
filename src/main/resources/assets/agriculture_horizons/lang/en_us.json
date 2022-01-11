@@ -1,3 +1,7 @@
 {
-  "item.agriculture_horizons.wax": "Wax"
+  "block.agriculture_horizons.wax_block": "Wax Block",
+
+  "item.agriculture_horizons.wax": "Wax",
+
+  "itemGroup.agriculture_horizons.title": "Agriculture Horizons"
 }

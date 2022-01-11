@@ -12,7 +12,7 @@ import net.rakkis157.agriculture_horizons.AgricultureHorizons;
 public class AgricultureHorizonsItems {
 
     public static final Item WAX = registerItem("wax", new HoneycombItem(
-            new FabricItemSettings().group(ItemGroup.MISC)));
+            new FabricItemSettings().group(AgricultureHorizonsItemGroup.AGRICULTURE_HORIZONS)));
 
     public static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(AgricultureHorizons.MOD_ID, name), item);
