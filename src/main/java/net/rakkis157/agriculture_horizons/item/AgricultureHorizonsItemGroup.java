@@ -7,6 +7,6 @@ import net.minecraft.util.Identifier;
 import net.rakkis157.agriculture_horizons.AgricultureHorizons;
 
 public class AgricultureHorizonsItemGroup {
-    public static final ItemGroup AGRICULTURE_HORIZONS = FabricItemGroupBuilder.build(new Identifier(AgricultureHorizons.MOD_ID,
+    public static final ItemGroup MAIN = FabricItemGroupBuilder.build(new Identifier(AgricultureHorizons.MOD_ID,
             "title"), () -> new ItemStack(AgricultureHorizonsItems.WAX));
 }
