@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_column",
+  "parent": "block/cube_column_horizontal",
   "textures": {
     "end": "agriculture_horizons:block/wax_palm_log_top",
     "side": "agriculture_horizons:block/wax_palm_log"
